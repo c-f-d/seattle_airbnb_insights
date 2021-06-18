@@ -20,15 +20,15 @@ AirBNB created a new business case. Renting out private space to travelers and p
 
 * Project_Blog_Post_Seattle_Airbnb.ipynb: project jupyter notebook
 * Pictures (self-explaining by title)
-** availability_of_listings_per_month_in_2016.png
-** average_price_o_available_listings_per_month_in_2016.png
-** importance_of_amenities_in_relation_to_review_score_rating.png
-** importance_of_features_in_relation_to_price.png
+    * availability_of_listings_per_month_in_2016.png
+    * average_price_o_available_listings_per_month_in_2016.png
+    * importance_of_amenities_in_relation_to_review_score_rating.png
+    * importance_of_features_in_relation_to_price.png
 * folder data:
-** calendar.csv - including full descriptions and average review score
-** listings.csv - including listing id and the price and availability for that day
-** neighourhoods.csv - maps neighourhoods to neighbourhood groups
-** reviews.csv - including unique id for each reviewer and detailed comments
+    * calendar.csv - including full descriptions and average review score
+    * listings.csv - including listing id and the price and availability for that day
+    * neighourhoods.csv - maps neighourhoods to neighbourhood groups
+    * reviews.csv - including unique id for each reviewer and detailed comments
 
 ## Summary of the Results
 
