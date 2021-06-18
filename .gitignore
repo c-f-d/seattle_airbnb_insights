@@ -1,0 +1,7 @@
+# ignore directories
+ignore/
+.ipynb_checkpoints/
+
+# ignore files
+*.xlsx
+*.pdf
