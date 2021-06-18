@@ -52,6 +52,6 @@ When looking at features with 3% and more, the following might be able to provid
 
 The following features might not as easily be added or not all (all above 3%): Family/Kid Friendly, Free Parking on Premises, Elevator in Building, Indoor Fireplace, Buzzer/Wireless Intercom, and Gym. Here, you should just focus on the ones stated above and try to add those to provide value and that potentially increase your review score instead of adding this Indoor Fireplace for example.
 
-* Acknowledgement
+## Acknowledgement
 
 The dataset used is part of AirBNB Inside.
