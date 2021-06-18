@@ -56,4 +56,4 @@ The following features might not as easily be added or not all (all above 3%): F
 ## Acknowledgement
 
 The dataset used is part of AirBNB Inside.
-Thanks to various kaggle projects for inspiration (like how to structure the project, how to plot charts, and minor other stuff).
+Thanks to various stackoverflow entries and kaggle projects for inspiration (like how to structure the project, how to plot charts, and minor other stuff).
