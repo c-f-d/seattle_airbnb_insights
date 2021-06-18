@@ -1,5 +1,9 @@
 # Seattle AirBNB Insights
 
+## Link to Medium blog post:
+
+https://info-74839463.medium.com/seattle-airbnb-insights-1d1c766455fa
+
 ## Libraries Used
 
 * Python version: 3.8.5
