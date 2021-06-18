@@ -4,6 +4,7 @@
 
 * Python version: 3.8.5
 * pandas
+* numpy
 * matplotlib
 * sklearn
 * collections
@@ -38,17 +39,17 @@ The earliest date of the dataset was January 4, 2016. The provided data was gath
 
 The second question is about the impact of features on the price. After deleting redundant columns (i.e. features) and information that I considered irrelevant, I am down to 43 features that will be examined.
 
-I used the Random Forest Regressor for this task. The model shows an R-squared of 0.914 for the Train data. This is a great result and the model fits the real data quite well. Unfortunately, the R-squared figure for the Test data is not as high with 0.676. It can be concluded that the model does not generalize too well. But the Test R-squared is still reasonably high and the model still does a good job in explaining the importance of the features on the price.
+I used the Random Forest Regressor for this task. The model shows an R-squared of 0.926 for the Train data. This is a great result and the model fits the real data quite well. Unfortunately, the R-squared figure for the Test data is not as high with 0.526. It can be concluded that the model does not generalize too well. But the Test R-squared is still reasonably high and the model still does a good job in explaining the importance of the features on the price.
 
-When looking into the feature importance, you that one feature is by far the most important one: the number of bedrooms (37.1%). This is followed by the number of reviews (9.7%), the number of bathrooms (9.3%), and the number of people it accommodates (7,7%). There is certainly a correlation between number of bedrooms, bathrooms, and accommodates. Number of reviews certainly shows that the pricey listings get booked more often and/or as they are well in demand the price might be adjusted accordingly. What you can also see, even though the impact is not really significant (3.1% and less), that the neighbourhoods have also an impact on the price. Downtown, for example, has the highest impact of all the neighbourhoods. The reason could be that it can be considered the city center which offers short distances to many Seattle sights.
+When looking into the feature importance, you that one feature is by far the most important one: the number of bedrooms (42.3%). This is followed by the number of bathrooms (8.7%), the type Entire Home/Apt (7.9%), and the number of reviews for a listing (7,7%). There is certainly a correlation between number of bedrooms, the number of bathrooms, and the the type being Entire Home/Apt. Number of reviews certainly indicates that the pricey listings get booked more often and/or as they are well in demand the price might be adjusted accordingly. What you can also see, even though the impact is not really significant (2.5% and less), that the neighbourhoods have also an impact on the price. Downtown, for example, has the highest impact of all the neighbourhoods. The reason could be that it can be considered the city center which offers short distances to many Seattle sights.
 
 The third and last question deals with the amenities and the review scores rating. I try to find out if there are certain amenities that have an impact on the review and that can easily be added to provide value if missing so far (e.g. a first aid kit can certainly provided easily whereas it would be much more difficult if not impossible to add an indoor fireplace in a regular apartment).
 
-The Random Forest Regressor is also used here. The R-squared value of 0.758 based on the Trained data looks promising, but after checking the trained model against the Test data it shows that it does not generalize very well and fits the data really poorly. The R-squared value for Test data is -0.232. The results should probably be dismissed. Perhaps using a different algorithm might lead to better and more significant results.
+The Random Forest Regressor is also used here. The R-squared value of 0.771 based on the Trained data looks promising, but after checking the trained model against the Test data it shows that it does not generalize very well and fits the data really poorly. The R-squared value for Test data is -0.192. The results should probably be dismissed. Perhaps using a different algorithm might lead to better and more significant results.
 
-Nevertheless, when looking into the feature importance, you can possibly still draw a few conclusions (even though you should treat them with some suspicion). Over all, there is not a feature as dominating as the number of bedrooms of question two. The most important feature is Family/Kid Friendly (5.6%), followed by Cable TV (5.0%) and TV (4.8%).
+Nevertheless, when looking into the feature importance, you can possibly still draw a few conclusions (even though you should treat them carefully). Over all, there is not a feature dominating as it was the case with the number of bedrooms of question two. The most important feature is Cable TV (6.0%), followed by Family/Kid Friendly (5.9%) and TV (5.1%).
 
-When looking at features with 3% and more, the following might be able to provide value and should be added to the listing if possible: TV, Cable TV, Essentials, Fire Extinguisher, Internet, First Aid Kid, Carbon Monoxide Detector, and Shampoo.
+When looking at features with 3.0% and more, the following might be able to provide value and should be added to the listing if possible: TV, Cable TV, Essentials, Fire Extinguisher, Internet, First Aid Kid, Carbon Monoxide Detector, and Shampoo.
 
 The following features might not as easily be added or not all (all above 3%): Family/Kid Friendly, Free Parking on Premises, Elevator in Building, Indoor Fireplace, Buzzer/Wireless Intercom, and Gym. Here, you should just focus on the ones stated above and try to add those to provide value and that potentially increase your review score instead of adding this Indoor Fireplace for example.
 
