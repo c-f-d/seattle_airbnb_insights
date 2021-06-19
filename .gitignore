@@ -4,4 +4,4 @@ ignore/
 
 # ignore files
 *.xlsx
-*.pdf
+# *.pdf
